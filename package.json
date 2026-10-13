@@ -1,0 +1,20 @@
+{
+  "name": "jaxxy-mlbb",
+  "version": "0.1.0",
+  "description": "Tiny JavaScript client for the JaxxyMLBBapi (mlbb.bypaxxy.rip). Unofficial.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": { "types": "./src/index.d.ts", "default": "./src/index.js" }
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test/client.test.js"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["mlbb", "mobile-legends", "api", "client"],
+  "author": "j1xxyboo",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/j1xxyboo/jaxxymlbbapi.git" }
+}
